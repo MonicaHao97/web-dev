@@ -1,0 +1,126 @@
+.body-bg-color {
+    background-color: black;
+}
+.padding-left-10{
+    padding-left: 10px;
+}
+.div-section-1{
+    height:100px;
+    width: 570px;
+    margin-left: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+.div-section-fill{
+    height:10px;
+    width: 570px;
+    margin-left: 16px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: rgb(47,51,54);
+    background-color: #242424;
+}
+.div-section-post{
+    height: 110px;
+    width: 570px;
+    margin-left: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+.input-section{
+    height: 25px;
+    width: 490px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: rgb(64,64,64);
+}
+.input-section::placeholder{
+    padding-left:40px;
+    color: rgb(110,118,125);
+}
+.gear{
+    margin-right: 12px;
+}
+.link-select{
+    top: 10px;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    position:relative;
+    color: rgb(29,161,242);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(29,161,242);
+    text-decoration: none;
+}
+.link-regular{
+    position:relative;
+    top: 10px;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(110,118,125);
+    text-decoration: none;
+}
+.post-topic{
+    position: relative;
+    bottom: 15px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+.post-topic-2{
+    width: 400px;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: lightgray;
+}
+.post-topic-3{
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+.post-click-1{
+    position: relative;
+    left: 518px;
+    font-size: 13px;
+    color: white;
+}
+.post-click-2{
+    position: relative;
+    left: 400px;
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+.post-title{
+    position: relative;
+    bottom: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgray;
+}
+.post-title-2{
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgray;
+}
+.img{
+    position: relative;
+    bottom: 70px;
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 16px;
+    margin-left: 50px;
+}
