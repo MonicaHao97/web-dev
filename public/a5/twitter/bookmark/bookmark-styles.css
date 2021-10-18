@@ -1,0 +1,126 @@
+.wd-body-bg-color {
+    background-color: black;
+}
+.wd-div-section-A{
+    width: 570px;
+    height: 60px;
+    position: relative;
+    top: -16px;
+    margin-left: 8px;
+    border-left: 1px solid rgb(47,51,54);
+    border-bottom: 1px solid rgb(47,51,54);
+    border-right: 1px solid rgb(47,51,54);
+}
+.wd-section-A-p{
+    padding-top: 6px;
+}
+.wd-section-A-click{
+    color:rgb(29,161,242);
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.wd-section-A-title{
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: lightgray;
+}
+.wd-section-A-handle{
+    padding-left: 16px;
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+.wd-div-section-B{
+    width: 570px;
+    height: 520px;
+    margin-left: 8px;
+    position: relative;
+    top: -16px;
+    border-left: 1px solid rgb(47,51,54);
+    border-bottom: 1px solid rgb(47,51,54);
+    border-right: 1px solid rgb(47,51,54);
+}
+.wd-section-B-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.wd-section-B-name{
+    position: relative;
+    bottom: 65px;
+    margin-left: 80px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color: lightgray;
+}
+.wd-section-B-handle{
+    color: rgb(110,118,125);
+    font-size: 15px;
+}
+.wd-section-B-click{
+    color: rgb(110,118,125);
+    padding-right: 20px;
+    float: right;
+}
+.wd-section-B-main{
+    width: 450px;
+    position: relative;
+    bottom: 75px;
+    margin-left: 80px;
+    font-size: 15px;
+    color: lightgray;
+}
+.wd-section-B-cover{
+    width: 450px;
+    height: 264px;
+    position: relative;
+    bottom: 90px;
+    margin-top: 12px;
+    margin-left: 75px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid rgb(47,51,54);
+}
+.wd-section-B-title{
+    width: 438px;
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgray;
+    margin-left: 75px;
+    position:relative;
+    bottom: 109px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(47,51,54);
+}
+.wd-section-B-subtitle{
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+.wd-section-B-link{
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+.wd-section-B-number{
+    position:relative;
+    bottom:109px;
+    margin-left: 85px;
+    font-size: 15px;
+    color: rgb(110,118,125);
+    text-decoration: none;
+}
+.wd-section-B-liked{
+    position:relative;
+    bottom:109px;
+    margin-left: 85px;
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+}

@@ -34,12 +34,12 @@
 }
 .input-section{
     height:35px;
-    width: 80%;
+    width: 100%;
     border-style: solid;
     border-color: black;
     border-width: 0px;
     border-radius: 30px;
-    background-color: rgb(64,64,64);
+    background-color: white;
 }
 .input-section::placeholder{
     position: relative;
@@ -108,7 +108,6 @@
     height: 75px;
     border-radius: 20px;
     margin-right: 16px;
-    margin-left: 50px;
 }
 .list-group-item.black{
     border-color: black;
@@ -123,7 +122,6 @@
 }
 .btn-primary.tweet-button{
     font-size: 13px;
-    width: 100%;
     background-color: rgb(29,161,242);
     font-weight: bold;
     border-radius: 50px;
@@ -175,4 +173,9 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     background-color: rgb(64,64,64);
+}
+.wd-search-icon{
+    position: absolute;
+    left: 25px;
+    bottom: 9px;
 }
