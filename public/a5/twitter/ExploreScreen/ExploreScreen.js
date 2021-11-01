@@ -11,7 +11,7 @@ import WhoToFollowList from "../WhoToFollowList/index.js";
             <div class="col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
                 ${ExploreComponent()}
             </div>
-            <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+            <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
                 ${WhoToFollowList()}
             </div> 
         </div>
