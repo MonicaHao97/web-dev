@@ -68,9 +68,9 @@ const EditProfileScreen = () => {
                             <label for="name">Name</label><br/>
                             <input className="bg-light text-white" id="name" rows="4"
                                    style={{width: "100%"}}
-                                      value = {name.name}
-                                      onChange={(e)=>setName({...personalInfo,name:e.target.value})}/>
-                                {personalInfo.name}
+                                   value = {name.name}
+                                   onChange={(e)=>setName({...personalInfo,name:e.target.value})}/>
+                            {personalInfo.name}
                         </div>
                         <div className="mt-2">
                             <label for="bio">Bio</label><br/>
@@ -78,23 +78,23 @@ const EditProfileScreen = () => {
                                       style={{width: "100%"}}
                                       value={bio.bio}
                                       onChange={(e)=>setBio({...personalInfo,bio:e.target.value})}/>
-                                {personalInfo.bio}
+                            {personalInfo.bio}
                         </div>
                         <div className="mt-2">
                             <label for="location">Location</label><br/>
                             <input className="bg-light text-white" id="location" rows="4"
                                    style={{width: "100%"}}
                                    value={local.local}
-                                      onChange={(e)=>setLocal({...personalInfo,local:e.target.value})}/>
-                                {personalInfo.location}
+                                   onChange={(e)=>setLocal({...personalInfo,local:e.target.value})}/>
+                            {personalInfo.location}
                         </div>
                         <div className="mt-2">
                             <label for="website">Website</label><br/>
                             <input className="bg-light text-white" id="website" rows="4"
                                    style={{width: "100%"}}
                                    value={web.web}
-                                      onChange={(e)=>setWeb({...personalInfo,website:e.target.value})}/>
-                                {personalInfo.website}
+                                   onChange={(e)=>setWeb({...personalInfo,website:e.target.value})}/>
+                            {personalInfo.website}
                         </div>
                         <label for="birthday">Birth date - Edit </label><br/>
                         <input className="bg-light text-white" id="birthday" type="date"
