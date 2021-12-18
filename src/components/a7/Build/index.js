@@ -1,9 +1,9 @@
 import React from 'react';
-
 import {Route} from "react-router-dom";
 import HomeScreen from "./HomeScreen/HomeScreen";
 import ExploreScreen from "./ExploreScreen/ExploreScreen";
 import ProfileScreen from "./ProfileScreen/index";
+import EditProfile from "./EditProfileScreen/EditProfileScreen";
 import who from "../../../reducers/who";
 import tweets from "../../../reducers/tweets";
 import profile from"../../../reducers/profile";
@@ -23,6 +23,8 @@ const Build = () => {
                        exact={true} component={ExploreScreen}/>
                 <Route path="/a7/twitter/profile"
                        exact={true} component={ProfileScreen}/>
+                <Route path="/a7/twitter/editprofile"
+                       exact={true} component={EditProfile}/>
             </div>
         </Provider>
     )

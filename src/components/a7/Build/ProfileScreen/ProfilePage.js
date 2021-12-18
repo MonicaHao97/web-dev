@@ -26,13 +26,13 @@ const Profile = () => {
             </div>
             <div>
                 <img
-                    src="../../../source/bg.png"
+                    src="../../../source/Thumbnail.jpeg"
                     height="400px" width="100%" style={{objectFit: 'cover'}}/>
             </div>
             <div className="row">
                 <div>
                     <img
-                        src="../../../source/User-3.png"
+                        src="../../../source/Profile.jpeg"
                         className="rounded-circle"
                         height="160px"
                         width="160px"
@@ -49,7 +49,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <Link to="/a7/twitter/edit">
+                    <Link to="/a7/twitter/editprofile">
                         <button type="button" className="btn btn-outline-dark"
                                 style={{float: 'right',marginTop: "-80px",borderRadius: "20px"}}>Edit Profile</button>
                     </Link>

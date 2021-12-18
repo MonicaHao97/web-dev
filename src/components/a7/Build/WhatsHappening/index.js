@@ -17,7 +17,7 @@ const WhatsHappening = () => {
             <table style={{marginBottom: '16px'}}>
                 <tr>
                     <td style={{verticalAlign: 'top'}}>
-                        <img src={'../../../source/User-3.png'}
+                        <img src={'../../../source/profile.jpeg'}
                              className="rounded-circle"
                              style={{width: '48px', margin: '16px'}}/>
                     </td>
